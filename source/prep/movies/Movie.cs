@@ -14,7 +14,7 @@ namespace code.prep.movies
     {
       if (other == null) return false;
       if (ReferenceEquals(this, other)) return true;
-
+    
       return this.title.Equals(other.title);
     }
 
